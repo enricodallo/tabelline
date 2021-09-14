@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    
+    <body>
+			<div id="pagewrapper">
+				<div id="questionbox">
+						<div id="question">Quanto fa...</div>
+						<div id="questnum"></div>
+						<div id="qm">?</div>
+				</div>
+				<div id="answerbox">
+						<input type="number" id="answer" />
+				</div>
+				<div id="response"></div>
+				<div id="score">Record di risposte corrette: <span id="scorenum">0</span></div>
+			</div>
+				
+				<audio id="audio" src=""></audio>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+    
+</html>
